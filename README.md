@@ -42,7 +42,7 @@ cd seu-repositorio
 2. Importe a biblioteca `crank_nicolson` no seu código Python:
 
 ```python
-from crank_nicolson import crank_nicolson
+from cn import crank_nicolson as cn
 ```
 
 3. Utilize a função crank_nicolson para resolver equações diferenciais parciais parabólicas:
@@ -51,6 +51,8 @@ from crank_nicolson import crank_nicolson
 u_final = crank_nicolson(u_inicial, nx, m, b, r, ti, tf)
 
 4. Substitua os parâmetros u_inicial, nx, m, b, r, ti e tf pelos valores específicos do seu problema. Consulte a documentação ou os exemplos fornecidos neste repositório para mais detalhes sobre como configurar os parâmetros corretamente.
+
+5. Neste mesmo repositório existem 3 exemplos de aplicação da biblioteca.
 
 
 A biblioteca é distribuída sob uma licença de código aberto, encorajando o uso, modificação e contribuições da comunidade científica global.
