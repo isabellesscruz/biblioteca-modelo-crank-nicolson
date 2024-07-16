@@ -45,13 +45,13 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente:
 from cn import crank_nicolson as cn
 ```
 
-3. Utilize a função crank_nicolson para resolver equações diferenciais parciais parabólicas:
+3. Utilize a função crank_nicolson para resolver equações diferenciais parciais parabólicas
 
 4. Substitua os parâmetros u_inicial, nx, m, b, r, ti e tf pelos valores específicos do seu problema. Consulte a documentação ou os exemplos fornecidos neste repositório para mais detalhes sobre como configurar os parâmetros corretamente.
 
 5. Neste mesmo repositório existem 3 exemplos de aplicação da biblioteca.
 
-6. Exemplo de utilização
+6. Exemplo de utilização:
 ```python
 u_final = cn(u_inicial, nx, m, b, r, ti, tf)
 ```
