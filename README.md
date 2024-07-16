@@ -53,7 +53,7 @@ from cn import crank_nicolson as cn
 
 6. Exemplo de utilização
 ```python
-u_final = crank_nicolson(u_inicial, nx, m, b, r, ti, tf)
+u_final = cn(u_inicial, nx, m, b, r, ti, tf)
 ```
 
 A biblioteca é distribuída sob uma licença de código aberto, encorajando o uso, modificação e contribuições da comunidade científica global.
