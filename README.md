@@ -37,7 +37,7 @@ Certifique-se de ter os seguintes requisitos instalados em seu ambiente:
 ### Utilização da Biblioteca
 
 1. Clone este repositório: git clone https://github.com/isabellesscruz/biblioteca-modelo-crank-nicolson
-cd seu-repositorio
+
 
 2. Importe a biblioteca `crank_nicolson` no seu código Python:
 
