@@ -47,7 +47,7 @@ from cn import crank_nicolson as cn
 
 3. Utilize a função crank_nicolson para resolver equações diferenciais parciais parabólicas:
 
-   # Exemplo de utilização
+#### Exemplo de utilização
 u_final = crank_nicolson(u_inicial, nx, m, b, r, ti, tf)
 
 4. Substitua os parâmetros u_inicial, nx, m, b, r, ti e tf pelos valores específicos do seu problema. Consulte a documentação ou os exemplos fornecidos neste repositório para mais detalhes sobre como configurar os parâmetros corretamente.
